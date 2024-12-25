@@ -1,0 +1,20 @@
+<div class="hero" style="background-image: url('https://source.unsplash.com/random/1600x900/?movie');">
+    <div class="hero-content">
+        <h1>Welcome to Netflix AI Clone</h1>
+        <p>Explore our AI-powered movie recommendations and chat about your favorite films!</p>
+        <a href="/browse" class="btn">Browse Movies</a>
+    </div>
+</div>
+
+<h2>Popular Movies</h2>
+<div class="movie-grid">
+    {% for i in range(6) %}
+    <div class="movie-card">
+        <img src="https://source.unsplash.com/random/200x300/?movie-poster" alt="Movie Poster">
+        <div class="movie-info">
+            <h3>Movie Title {{ i + 1 }}</h3>
+            <p>2023</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

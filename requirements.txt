@@ -1,3 +1,7 @@
 streamlit
 google-generativeai
+Pillow
 python-dotenv
+flask
+
+

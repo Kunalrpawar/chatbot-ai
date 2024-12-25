@@ -1,0 +1,12 @@
+<h1>Browse Movies</h1>
+<div class="movie-grid">
+    {% for i in range(12) %}
+    <div class="movie-card">
+        <img src="https://source.unsplash.com/random/200x300/?movie-poster" alt="Movie Poster">
+        <div class="movie-info">
+            <h3>Movie Title {{ i + 1 }}</h3>
+            <p>2023</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
